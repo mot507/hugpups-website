@@ -1,0 +1,131 @@
+.cont {
+    width: 54%;
+    height: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+margin-top: 15px;
+    > h2 {
+        font-size: 30px;
+    }
+}
+
+.cont .testimonials {
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    max-width: fit-content;
+}
+
+.testimonials .testimonial {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.testimonial .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media screen  and (max-width: 768px) {
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.testimonie{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    gap: 10px;
+    justify-self: center;
+    margin-top: 32px;
+   }
+   .text-input{
+    font-size: 20px;
+    border: none;
+    padding: 8px;
+    color: var(--primary-color);
+    cursor: auto;
+    flex: 1;
+    color: black;
+   }
+   .input{
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+
+   
+    > p {
+        width: 300px;
+        font-weight: 1000;
+        font-size: 20px;
+    }
+   
+   }
+   .primary-button{
+    background-color:var(--primary-color);
+    width: 190px;
+    color: var(--background-color);
+    font-weight: 700px;
+    font-size: 20px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+   }
+
+   .test-box{
+    background-color: var(--background-color);
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+    padding: 8px;
+    gap: 9px;
+    max-width: 100%;
+    width: 100%;
+    padding: 30px;
+    border-radius: 32px;
+   }
+ 
+
+.testimonial-text{
+    padding: 32px
+}
+
+
+.t-info {
+    font-weight: 300px;
+}
